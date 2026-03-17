@@ -1,4 +1,4 @@
-# Custom Pokemon Diffusion Model from Scratch
+# Pokemon Diffusion Model from Scratch
 
 An end-to-end Machine Learning pipeline that trains a custom Unconditional Image Diffusion Model to generate brand new Pokémon sprites. Built with PyTorch and Hugging Face `diffusers`, optimized for Apple Silicon (MPS), and deployed with a local Gradio Web UI.
 
