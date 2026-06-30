@@ -42,7 +42,7 @@ def generate_pokemon(seed):
     return Image.fromarray(gen_image_np)
 #6.Build and Launch the Gradio UI
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 👾 Custom Pokemon Generator (Model A Production)")
+    gr.Markdown("# Custom Pokemon Generator (Model A Production)")
     gr.Markdown("Running locally on Apple Silicon (MPS) using a 100-step linear diffusion schedule.")  
     with gr.Row():
         with gr.Column():
